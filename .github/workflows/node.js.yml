@@ -61,4 +61,5 @@ jobs:
 
       - name: Deploy
         run: |
-          npm run deploy
+          yarn angular-cli-ghpages -S
+          yarn run deploy
