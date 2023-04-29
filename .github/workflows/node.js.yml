@@ -61,5 +61,7 @@ jobs:
 
       - name: Deploy
         run: |
+          git config user.email "jeffmcardle.work@gmail.com"
+          git config user.name "Jeff McArdle"
           yarn angular-cli-ghpages -S
           yarn run deploy
