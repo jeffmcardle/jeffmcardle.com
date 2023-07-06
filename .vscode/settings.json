@@ -19,5 +19,6 @@
     "titleBar.inactiveBackground": "#506fe299",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.remoteColor": "#506fe2"
+  "peacock.remoteColor": "#506fe2",
+  "typescriptHero.imports.organizeOnSave": true
 }
